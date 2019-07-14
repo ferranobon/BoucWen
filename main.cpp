@@ -55,7 +55,7 @@ int main (int argc, char **argv) {
   double_t DispTdT = 0.0;
   inFile >> DispTdT;
   while (!inFile.eof()){
-    outFile << DispTdT*5.0 << "\t" << BWen->Solver(DispTdT*5.0) << std::endl;
+    outFile << DispTdT << "\t" << BWen->Solver(DispTdT) << std::endl;
     inFile >> DispTdT;
   }
 
