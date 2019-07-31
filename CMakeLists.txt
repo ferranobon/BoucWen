@@ -1,5 +1,5 @@
 # Name of the project
-cmake_minimum_required(VERSION 3.7.0)
+cmake_minimum_required(VERSION 3.12.0 FATAL_ERROR)
 project (BoucWen)
 
 # Build type
